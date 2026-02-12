@@ -162,7 +162,7 @@ order: 4
         Continue
       </button>
       <a 
-        href="/"
+        href="{{ '/' | relative_url }}"
         class="ftp-button ftp-button-secondary"
       >
         Go Back
@@ -174,17 +174,15 @@ order: 4
 
 # Welcome to my FTP Service!
 
-[comment]: <> (-[**file name**](/ftp/file name))
-
-- [**test.pdf**](/ftp/test.pdf)
-- [**긴급복지지원-수료증.pdf**](/ftp/긴급복지지원-수료증.pdf)
-- [**보수교육이수1.jpg**](/ftp/보수교육이수1.jpg)
-- [**보수교육이수2.jpg**](/ftp/보수교육이수2.jpg)
-- [**minions.jpg**](/ftp/minions.jpg)
-- [**보수교육이수증.jpg**](/ftp/보수교육이수증.jpg)
-- [**보수교육이수증2.jpg**](/ftp/보수교육이수증2.jpg)
-- [**국외여행허가서.hwp**](/ftp/국외여행허가서 양식.hwp)
-- [**공중보건의사 국외여행 승인신청서-중국**](/ftp/공중보건의사 국외여행 승인신청서-중국.pdf)
-- [**국외여행허가추천서**](/ftp/국외여행 허가 추천서(윤_찬).pdf)
+- [**test.pdf**]({{ '/ftp/test.pdf' | relative_url }})
+- [**긴급복지지원-수료증.pdf**]({{ '/ftp/긴급복지지원-수료증.pdf' | relative_url }})
+- [**보수교육이수1.jpg**]({{ '/ftp/보수교육이수1.jpg' | relative_url }})
+- [**보수교육이수2.jpg**]({{ '/ftp/보수교육이수2.jpg' | relative_url }})
+- [**minions.jpg**]({{ '/ftp/minions.jpg' | relative_url }})
+- [**보수교육이수증.jpg**]({{ '/ftp/보수교육이수증.jpg' | relative_url }})
+- [**보수교육이수증2.jpg**]({{ '/ftp/보수교육이수증2.jpg' | relative_url }})
+- [**국외여행허가서.hwp**]({{ '/ftp/국외여행허가서 양식.hwp' | relative_url }})
+- [**공중보건의사 국외여행 승인신청서-중국**]({{ '/ftp/공중보건의사 국외여행 승인신청서-중국.pdf' | relative_url }})
+- [**국외여행허가추천서**]({{ '/ftp/국외여행 허가 추천서(윤_찬).pdf' | relative_url }})
 
 <script src="{{ '/assets/js/ftp-password.js' | relative_url }}"></script>
