@@ -185,5 +185,7 @@ order: 4
 - [**공중보건의사 국외여행 허가 추천 승인 알림(윤훈찬).pdf**]({{ '/ftp/공중보건의사 국외여행 허가 추천 승인 알림(윤훈찬).pdf' | relative_url }})
 - [**공중보건의사 국외여행 승인신청서-중국**]({{ '/ftp/공중보건의사 국외여행 승인신청서-중국.pdf' | relative_url }})
 - [**국외여행허가추천서**]({{ '/ftp/국외여행 허가 추천서(윤_찬).pdf' | relative_url }})
+- [**전체_티켓_인쇄용**]({{ '/ftp/전체_티켓_인쇄용.pdf' | relative_url }})
+
 
 <script src="{{ '/assets/js/ftp-password.js' | relative_url }}"></script>
